@@ -1,10 +1,10 @@
 <?php
 header("Content-Type: application/json");
 
-$servername = "localhost";
-$username = "root"; // Change if necessary
-$password = ""; // Change if necessary
-$dbname = "registration"; // Database name
+$servername = "sql12.freesqldatabase.com";
+$username = "sql12745902"; // Change if necessary
+$password = "Z14X3BtRSQ"; // Change if necessary
+$dbname = "monito"; // Database name
 
 // Connect to MySQL
 $conn = new mysqli($servername, $username, $password, $dbname);
